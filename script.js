@@ -11,6 +11,7 @@ const translations = {
     navPwa: "PWA",
     navPrivacy: "Privacy",
     navOpenSource: "Open source",
+    navLegal: "Legal",
     openApp: "Apri app",
     heroEyebrow: "Editor PDF open source, nel tuo browser",
     heroCopy:
@@ -107,6 +108,7 @@ const translations = {
     navPwa: "PWA",
     navPrivacy: "Privacy",
     navOpenSource: "Open source",
+    navLegal: "Legal",
     openApp: "Open app",
     heroEyebrow: "Open source PDF editor, in your browser",
     heroCopy:
@@ -246,6 +248,7 @@ setText('.nav a[href="#features"]', t.navFeatures);
 setText('.nav a[href="#pwa"]', t.navPwa);
 setText('.nav a[href="#privacy"]', t.navPrivacy);
 setText('.nav a[href="#opensource"]', t.navOpenSource);
+setText('.nav a[href="legal.html"]', t.navLegal);
 setText(".header-action", t.openApp);
 setText(".hero .eyebrow", t.heroEyebrow);
 setText(".hero-copy", t.heroCopy);
