@@ -56,7 +56,6 @@ a {
 .nav,
 .hero-actions,
 .header-tools,
-.language-switch,
 .site-footer {
   display: flex;
   align-items: center;
@@ -112,37 +111,6 @@ a {
 .header-tools {
   justify-self: end;
   gap: 10px;
-}
-
-.language-switch {
-  gap: 2px;
-  padding: 2px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--soft);
-}
-
-.language-switch a {
-  min-width: 32px;
-  padding: 6px 8px;
-  border-radius: 4px;
-  color: var(--muted);
-  font-family:
-    ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono",
-    monospace;
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.language-switch a[aria-current="true"] {
-  background: #ffffff;
-  color: var(--ink);
-  box-shadow: inset 0 0 0 1px var(--line);
-}
-
-.language-switch a:hover {
-  color: var(--ink);
 }
 
 .header-action:hover {
@@ -810,11 +778,6 @@ h3 {
 
   .header-tools {
     gap: 8px;
-  }
-
-  .language-switch a {
-    min-width: 30px;
-    padding-inline: 6px;
   }
 
   .hero {

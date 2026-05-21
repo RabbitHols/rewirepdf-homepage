@@ -37,5 +37,4 @@ local assets only. The page now mentions the RewirePDF app's installable PWA
 mode, offline app shell, local file picker workflow, and no automatic PDF
 document storage.
 
-The default page language is English. Use `?lang=it` to force Italian and
-`?lang=en` to force English.
+The page language is English.
