@@ -171,14 +171,15 @@ a {
 
 .hero-image {
   object-fit: cover;
-  object-position: center;
-  opacity: 0.18;
+  object-position: center right;
+  opacity: 0.86;
+  filter: saturate(1.12) contrast(1.12);
 }
 
 .hero-shade {
   background:
-    linear-gradient(90deg, rgb(246 248 250 / 98%) 0%, rgb(246 248 250 / 90%) 46%, rgb(246 248 250 / 66%) 100%),
-    linear-gradient(0deg, rgb(246 248 250 / 94%) 0%, rgb(246 248 250 / 0%) 62%);
+    linear-gradient(90deg, rgb(246 248 250 / 97%) 0%, rgb(246 248 250 / 88%) 34%, rgb(246 248 250 / 25%) 62%, rgb(246 248 250 / 0%) 100%),
+    linear-gradient(0deg, rgb(246 248 250 / 58%) 0%, rgb(246 248 250 / 0%) 48%);
 }
 
 .hero-content {
