@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RewirePDF - Open source PDF editor in your browser</title>
+    <meta
+      name="description"
+      content="RewirePDF is an open source, installable PWA PDF editor that runs locally in your browser: edit, sign, highlight, redact, and save without uploading or automatically storing your files."
+    />
+    <meta property="og:title" content="RewirePDF" />
+    <meta
+      property="og:description"
+      content="Open source, local, private PDF editing. Install RewirePDF as a PWA, open local files offline, and keep your PDFs on your device."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/editor-preview.png" />
+    <link rel="canonical" href="https://rewirepdf.com/" />
+    <link rel="alternate" hreflang="it" href="https://rewirepdf.com/?lang=it" />
+    <link rel="alternate" hreflang="en" href="https://rewirepdf.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://rewirepdf.com/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="assets/editor-preview.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="RewirePDF home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>RewirePDF</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#pwa">PWA</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#opensource">Open source</a>
+      </nav>
+      <div class="header-tools">
+        <nav class="language-switch" aria-label="Language">
+          <a href="?lang=it" data-locale-link="it">IT</a>
+          <a href="?lang=en" data-locale-link="en">EN</a>
+        </nav>
+        <a class="header-action" href="https://app.rewirepdf.com">Open app</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="assets/editor-preview.png"
+          alt="Preview of the RewirePDF editor with text, signature, and redaction tools"
+          width="1600"
+          height="950"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Open source PDF editor, in your browser</p>
+          <h1 id="hero-title">RewirePDF</h1>
+          <p class="hero-copy">
+            Edit, sign, annotate, and redact PDFs without sending your documents
+            to an external service. The app runs locally, follows your browser
+            language, can be installed as a PWA, and the code is open.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="https://app.rewirepdf.com">Open the editor</a>
+            <a class="button secondary" href="https://github.com/RabbitHols/pdf.js">View code</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Key points">
+        <div>
+          <strong>Local</strong>
+          <span>PDFs stay on your device.</span>
+        </div>
+        <div>
+          <strong>Open source</strong>
+          <span>Built on PDF.js and developed in public.</span>
+        </div>
+        <div>
+          <strong>Free</strong>
+          <span>No account required to start.</span>
+        </div>
+        <div>
+          <strong>Installable</strong>
+          <span>Use it as a PWA from your browser.</span>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div class="section-copy">
+          <p class="eyebrow">Why it exists</p>
+          <h2 id="intro-title">A PDF editor that does not treat your files as fuel.</h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            RewirePDF is built for practical PDF edits directly in the
+            browser: open a file, work on the document, and download the result.
+            No installation, and no need to send contracts, resumes, invoices,
+            or forms to a backend.
+          </p>
+          <p>
+            Some operations depend on the internal structure of the PDF. When a
+            source-level edit is not safe, the app tells you instead of
+            pretending that a visual cover-up is a real edit.
+          </p>
+        </div>
+      </section>
+
+      <section class="section pwa" id="pwa" aria-labelledby="pwa-title">
+        <div class="section-heading">
+          <p class="eyebrow">Installable PWA</p>
+          <h2 id="pwa-title">Use RewirePDF like an app, still with local files.</h2>
+          <p>
+            RewirePDF can be installed from supported browsers on desktop and
+            mobile. The app shell is cached for faster starts and offline access,
+            while your PDFs are not uploaded or automatically saved in browser
+            storage.
+          </p>
+        </div>
+        <div class="pwa-grid">
+          <article class="pwa-card">
+            <span class="pwa-icon install-icon" aria-hidden="true"></span>
+            <h3>Install from the browser</h3>
+            <p>
+              Add RewirePDF to your home screen, dock, or app launcher from
+              the browser install prompt when available.
+            </p>
+          </article>
+          <article class="pwa-card">
+            <span class="pwa-icon offline-icon" aria-hidden="true"></span>
+            <h3>Open the shell offline</h3>
+            <p>
+              The viewer interface can start from cache even without a network
+              connection, so you can keep working with local files.
+            </p>
+          </article>
+          <article class="pwa-card">
+            <span class="pwa-icon local-file-icon" aria-hidden="true"></span>
+            <h3>Choose local PDFs</h3>
+            <p>
+              Use the file picker to open documents from your device. RewirePDF
+              does not automatically cache PDFs you open.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section feature-band" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">What you can do</p>
+          <h2 id="features-title">Tools for real documents.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon text-icon" aria-hidden="true"></span>
+            <h3>Edit existing text</h3>
+            <p>
+              Change source text in compatible PDFs while keeping the document
+              editable and downloadable.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon add-icon" aria-hidden="true"></span>
+            <h3>Add text</h3>
+            <p>
+              Insert notes, filled fields, corrections, or new lines with font,
+              size, color, bold, and italic controls.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon sign-icon" aria-hidden="true"></span>
+            <h3>Sign</h3>
+            <p>
+              Create a signature by typing, drawing, or importing an image, then
+              place it on the document.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon redact-icon" aria-hidden="true"></span>
+            <h3>True redact</h3>
+            <p>
+              Real redaction when supported: remove content from the PDF, instead
+              of just drawing a rectangle over text.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon mark-icon" aria-hidden="true"></span>
+            <h3>Highlight and draw</h3>
+            <p>
+              Use highlights, freehand ink, thickness, color, and opacity for
+              quick reviews or visual notes.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon image-icon" aria-hidden="true"></span>
+            <h3>Images and stamps</h3>
+            <p>
+              Add images, logos, stamps, or graphic elements and keep them in the
+              exported file.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon comment-icon" aria-hidden="true"></span>
+            <h3>Comments</h3>
+            <p>
+              Work with comments and notes for clearer document reviews.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon pages-icon" aria-hidden="true"></span>
+            <h3>Pages and saving</h3>
+            <p>
+              Open, rotate, organize, save, and download the edited PDF.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section privacy" id="privacy" aria-labelledby="privacy-title">
+        <div class="privacy-panel">
+          <p class="eyebrow">Privacy by default</p>
+          <h2 id="privacy-title">Your document stays where it belongs: with you.</h2>
+          <p>
+            RewirePDF reads, renders, and edits in the browser. That reduces
+            the risk of exposing sensitive data and makes the app suitable for
+            personal files, work documents, contracts, and forms.
+          </p>
+        </div>
+        <ul class="privacy-list" aria-label="Guarantees">
+          <li>
+            <strong>No required upload</strong>
+            <span>The main workflow works with local files.</span>
+          </li>
+          <li>
+            <strong>No account to try it</strong>
+            <span>Open the app and load a PDF from your device.</span>
+          </li>
+          <li>
+            <strong>Explicit actions</strong>
+            <span>You download the result when you are ready.</span>
+          </li>
+          <li>
+            <strong>No automatic document storage</strong>
+            <span>The PWA cache is for the app shell, not your PDFs.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section opensource" id="opensource" aria-labelledby="opensource-title">
+        <div>
+          <p class="eyebrow">Open source</p>
+          <h2 id="opensource-title">Built on PDF.js, open for anyone who wants to inspect it.</h2>
+          <p>
+            RewirePDF extends PDF.js with editing and saving features. The
+            project is meant to be inspectable: you can read the code,
+            follow development, and verify how your files are handled.
+          </p>
+        </div>
+        <div class="source-actions" aria-label="Project links">
+          <a class="source-link" href="https://github.com/RabbitHols/pdf.js">
+            <span>GitHub repository</span>
+            <span aria-hidden="true">-></span>
+          </a>
+          <a class="source-link" href="https://github.com/RabbitHols/pdf.js/issues">
+            <span>Issues and bugs</span>
+            <span aria-hidden="true">-></span>
+          </a>
+          <a class="source-link" href="https://github.com/RabbitHols/pdf.js/discussions">
+            <span>Discussions</span>
+            <span aria-hidden="true">-></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="final-title">
+        <p class="eyebrow">Ready when you are</p>
+        <h2 id="final-title">Open a PDF, or install RewirePDF for later.</h2>
+        <a class="button primary" href="https://app.rewirepdf.com">Go to the app</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>RewirePDF</span>
+      <span>Open source PDF editing in the browser.</span>
+      <span id="year"></span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
