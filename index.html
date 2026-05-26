@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RewirePDF - Open source PDF editor in your browser</title>
+    <title>RewirePDF - Your open source PDF editor</title>
     <meta
       name="description"
-      content="RewirePDF is an open source, installable PWA PDF editor that runs locally in your browser: edit, sign, highlight, redact, and save without uploading or automatically storing your files."
+      content="RewirePDF is a UX-friendly open source PDF editor for everyday PDF operations across web, mobile, and native app work in progress. Edit, sign, organize, inspect certificates, read permissions, and work with many PDFs including Adobe/XFA documents."
     />
     <meta property="og:title" content="RewirePDF" />
     <meta
       property="og:description"
-      content="Open source, local, private PDF editing. Install RewirePDF as a PWA, open local files offline, and keep your PDFs on your device."
+      content="Your open source PDF editor for simple PDF operations, many document types, certificate reading, permissions, web, mobile, and native app work in progress."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/assets/editor-preview.png" />
@@ -27,10 +27,10 @@
         <span>RewirePDF</span>
       </a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#features">Features</a>
-        <a href="#pwa">PWA</a>
-        <a href="#privacy">Privacy</a>
-        <a href="#opensource">Open source</a>
+        <a href="#tools">Tools</a>
+        <a href="#documents">PDF support</a>
+        <a href="#platforms">Platforms</a>
+        <a href="#opensource">Project</a>
         <a href="legal.html">Legal</a>
       </nav>
       <div class="header-tools">
@@ -43,108 +43,74 @@
         <img
           class="hero-image"
           src="assets/editor-preview.png"
-          alt="Preview of the RewirePDF editor with text, signature, and redaction tools"
+          alt="Preview of the RewirePDF editor interface"
           width="1600"
           height="950"
         />
         <div class="hero-shade" aria-hidden="true"></div>
         <div class="hero-content">
-          <p class="eyebrow">Open source PDF editor, in your browser</p>
-          <h1 id="hero-title">RewirePDF</h1>
+          <p class="eyebrow">Open source PDF editor for everyday work</p>
+          <h1 id="hero-title">Your PDF editor.</h1>
           <p class="hero-copy">
-            Edit, sign, annotate, and redact PDFs without sending your documents
-            to an external service. The app runs locally, can be installed as a
-            PWA, and the code is open for inspection.
+            RewirePDF is a UX-friendly editor for the PDF tasks that should feel
+            direct: edit, sign, annotate, organize pages, inspect certificates,
+            check permissions, and export. Use it on the web, from mobile, or as
+            a native app as that work lands.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="https://app.rewirepdf.com">Open the editor</a>
-            <a class="button secondary" href="https://github.com/RabbitHols/pdf.js">View code</a>
+            <a class="button secondary" href="https://github.com/RabbitHols/pdf.js">View project</a>
           </div>
         </div>
       </section>
 
       <section class="trust-strip" aria-label="Key points">
         <div>
-          <strong>Local</strong>
-          <span>PDFs stay on your device.</span>
+          <strong>Simple operations</strong>
+          <span>Common PDF edits without a maze of menus.</span>
         </div>
         <div>
-          <strong>Open source</strong>
-          <span>Built on PDF.js and developed in public.</span>
+          <strong>Many PDFs</strong>
+          <span>Built for real-world files, including Adobe and XFA documents.</span>
         </div>
         <div>
-          <strong>Free</strong>
-          <span>No account required to start.</span>
+          <strong>Document insight</strong>
+          <span>Read certificates and understand PDF permissions.</span>
         </div>
         <div>
-          <strong>Installable</strong>
-          <span>Use it as a PWA from your browser.</span>
+          <strong>Use your way</strong>
+          <span>Web, mobile, installable app, and native app in development.</span>
         </div>
       </section>
 
       <section class="section intro" aria-labelledby="intro-title">
         <div class="section-copy">
           <p class="eyebrow">Why it exists</p>
-          <h2 id="intro-title">A PDF editor that does not treat your files as fuel.</h2>
+          <h2 id="intro-title">A PDF editor for the small jobs people actually need.</h2>
         </div>
         <div class="intro-text">
           <p>
-            RewirePDF is built for practical PDF edits directly in the
-            browser: open a file, work on the document, and download the result.
-            No installation, and no need to send contracts, resumes, invoices,
-            or forms to a backend.
+            Most PDFs do not need a giant document suite. They need a clear
+            editor that helps you fix text where possible, add content, sign,
+            review, manage pages, and save the result without turning a simple
+            task into a workflow.
           </p>
           <p>
-            Some operations depend on the internal structure of the PDF. When a
-            source-level edit is not safe, the app tells you instead of
-            pretending that a visual cover-up is a real edit.
+            RewirePDF is built as an open project around practical PDF behavior:
+            the interface stays approachable, while the editor still exposes the
+            document details that matter when a PDF is complex.
           </p>
         </div>
       </section>
 
-      <section class="section pwa" id="pwa" aria-labelledby="pwa-title">
+      <section class="section feature-band" id="tools" aria-labelledby="tools-title">
         <div class="section-heading">
-          <p class="eyebrow">Installable PWA</p>
-          <h2 id="pwa-title">Use RewirePDF like an app, still with local files.</h2>
+          <p class="eyebrow">Tools</p>
+          <h2 id="tools-title">The basic PDF operations, made comfortable.</h2>
           <p>
-            RewirePDF can be installed from supported browsers on desktop and
-            mobile. The app shell is cached for faster starts and offline access,
-            while your PDFs are not uploaded or automatically saved in browser
-            storage.
+            RewirePDF focuses on operations that belong in a friendly PDF editor:
+            small edits, annotations, signatures, page work, and export.
           </p>
-        </div>
-        <div class="pwa-grid">
-          <article class="pwa-card">
-            <span class="pwa-icon install-icon" aria-hidden="true"></span>
-            <h3>Install from the browser</h3>
-            <p>
-              Add RewirePDF to your home screen, dock, or app launcher from
-              the browser install prompt when available.
-            </p>
-          </article>
-          <article class="pwa-card">
-            <span class="pwa-icon offline-icon" aria-hidden="true"></span>
-            <h3>Open the shell offline</h3>
-            <p>
-              The viewer interface can start from cache even without a network
-              connection, so you can keep working with local files.
-            </p>
-          </article>
-          <article class="pwa-card">
-            <span class="pwa-icon local-file-icon" aria-hidden="true"></span>
-            <h3>Choose local PDFs</h3>
-            <p>
-              Use the file picker to open documents from your device. RewirePDF
-              does not automatically cache PDFs you open.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section feature-band" id="features" aria-labelledby="features-title">
-        <div class="section-heading">
-          <p class="eyebrow">What you can do</p>
-          <h2 id="features-title">Tools for real documents.</h2>
         </div>
         <div class="feature-grid">
           <article class="feature-card">
@@ -157,99 +123,140 @@
           </article>
           <article class="feature-card">
             <span class="icon add-icon" aria-hidden="true"></span>
-            <h3>Add text</h3>
+            <h3>Add content</h3>
             <p>
-              Insert notes, filled fields, corrections, or new lines with font,
-              size, color, bold, and italic controls.
+              Place text, images, stamps, and corrections with clear formatting
+              controls.
             </p>
           </article>
           <article class="feature-card">
             <span class="icon sign-icon" aria-hidden="true"></span>
-            <h3>Sign</h3>
+            <h3>Sign documents</h3>
             <p>
-              Create a signature by typing, drawing, or importing an image, then
-              place it on the document.
-            </p>
-          </article>
-          <article class="feature-card">
-            <span class="icon redact-icon" aria-hidden="true"></span>
-            <h3>True redact</h3>
-            <p>
-              Real redaction when supported: remove content from the PDF, instead
-              of just drawing a rectangle over text.
+              Type, draw, or import a signature and position it where the PDF
+              needs it.
             </p>
           </article>
           <article class="feature-card">
             <span class="icon mark-icon" aria-hidden="true"></span>
-            <h3>Highlight and draw</h3>
+            <h3>Review and annotate</h3>
             <p>
-              Use highlights, freehand ink, thickness, color, and opacity for
-              quick reviews or visual notes.
-            </p>
-          </article>
-          <article class="feature-card">
-            <span class="icon image-icon" aria-hidden="true"></span>
-            <h3>Images and stamps</h3>
-            <p>
-              Add images, logos, stamps, or graphic elements and keep them in the
-              exported file.
-            </p>
-          </article>
-          <article class="feature-card">
-            <span class="icon comment-icon" aria-hidden="true"></span>
-            <h3>Comments</h3>
-            <p>
-              Work with comments and notes for clearer document reviews.
+              Highlight, draw, comment, and mark up files during everyday review
+              work.
             </p>
           </article>
           <article class="feature-card">
             <span class="icon pages-icon" aria-hidden="true"></span>
-            <h3>Pages and saving</h3>
+            <h3>Manage pages</h3>
             <p>
-              Open, rotate, organize, save, and download the edited PDF.
+              Rotate, reorder, organize, and export the PDF after the document
+              is ready.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon redact-icon" aria-hidden="true"></span>
+            <h3>Redact when supported</h3>
+            <p>
+              Use real redaction paths when the PDF structure allows the content
+              to be removed.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon cert-icon" aria-hidden="true"></span>
+            <h3>Read certificates</h3>
+            <p>
+              Inspect certificate information so signed PDFs are not treated as
+              a mystery box.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="icon permission-icon" aria-hidden="true"></span>
+            <h3>Handle permissions</h3>
+            <p>
+              Surface document permissions and restrictions where the PDF defines
+              them.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="section privacy" id="privacy" aria-labelledby="privacy-title">
-        <div class="privacy-panel">
-          <p class="eyebrow">Privacy by default</p>
-          <h2 id="privacy-title">Your document stays where it belongs: with you.</h2>
+      <section class="section document-support" id="documents" aria-labelledby="documents-title">
+        <div class="support-panel">
+          <p class="eyebrow">PDF support</p>
+          <h2 id="documents-title">Made for real PDFs, not only perfect demo files.</h2>
           <p>
-            RewirePDF reads, renders, and edits in the browser. That reduces
-            the risk of exposing sensitive data and makes the app suitable for
-            personal files, work documents, contracts, and forms.
+            PDF is an old, broad, sometimes strange format. RewirePDF aims to
+            support the documents people actually receive: standard PDFs, files
+            produced by office tools, Adobe-flavored documents, and XFA forms.
           </p>
         </div>
-        <ul class="privacy-list" aria-label="Guarantees">
+        <ul class="support-list" aria-label="Supported document capabilities">
           <li>
-            <strong>No required upload</strong>
-            <span>The main workflow works with local files.</span>
+            <strong>Adobe and XFA PDFs</strong>
+            <span>Open and work with more of the documents that arrive from real workflows.</span>
           </li>
           <li>
-            <strong>No account to try it</strong>
-            <span>Open the app and load a PDF from your device.</span>
+            <strong>Certificate reading</strong>
+            <span>Expose certificate details when a PDF carries signing information.</span>
           </li>
           <li>
-            <strong>Explicit actions</strong>
-            <span>You download the result when you are ready.</span>
+            <strong>Permission awareness</strong>
+            <span>Show what the document says about printing, copying, editing, and access.</span>
           </li>
           <li>
-            <strong>No automatic document storage</strong>
-            <span>The PWA cache is for the app shell, not your PDFs.</span>
+            <strong>Clear edit limits</strong>
+            <span>When a PDF structure blocks an operation, the editor should say so clearly.</span>
           </li>
         </ul>
       </section>
 
+      <section class="section platforms pwa" id="platforms" aria-labelledby="platforms-title">
+        <div class="section-heading">
+          <p class="eyebrow">Platforms</p>
+          <h2 id="platforms-title">Choose how and where to use it.</h2>
+          <p>
+            RewirePDF is not meant to trap you in one surface. The project is
+            available on the web, works from mobile browsers, can be installed
+            as an app-like PWA, and has native app work in progress.
+          </p>
+        </div>
+        <div class="pwa-grid">
+          <article class="pwa-card">
+            <span class="pwa-icon web-icon" aria-hidden="true"></span>
+            <h3>Web editor</h3>
+            <p>
+              Open the editor from a browser and start with a PDF whenever you
+              need a quick edit.
+            </p>
+          </article>
+          <article class="pwa-card">
+            <span class="pwa-icon mobile-icon" aria-hidden="true"></span>
+            <h3>Mobile supported</h3>
+            <p>
+              Use RewirePDF from supported mobile browsers for lightweight PDF
+              work away from a desktop.
+            </p>
+          </article>
+          <article class="pwa-card">
+            <span class="pwa-icon native-icon" aria-hidden="true"></span>
+            <h3>Native app in development</h3>
+            <p>
+              Desktop-native packaging is part of the project direction, so the
+              editor can meet different working habits.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section class="section opensource" id="opensource" aria-labelledby="opensource-title">
         <div>
-          <p class="eyebrow">Open source</p>
-          <h2 id="opensource-title">Built on PDF.js, open for anyone who wants to inspect it.</h2>
+          <p class="eyebrow">Open project</p>
+          <h2 id="opensource-title">Open source, built for people who want a better everyday PDF tool.</h2>
           <p>
-            RewirePDF extends PDF.js with editing and saving features. The
-            project is meant to be inspectable: you can read the code,
-            follow development, and verify how your files are handled.
+            RewirePDF extends PDF.js with editing and saving features. The goal
+            is a practical community project: readable code, visible development,
+            and an editor that improves because people can inspect it, report
+            issues, and shape the roadmap.
           </p>
         </div>
         <div class="source-actions" aria-label="Project links">
@@ -270,14 +277,14 @@
 
       <section class="section final-cta" aria-labelledby="final-title">
         <p class="eyebrow">Ready when you are</p>
-        <h2 id="final-title">Open a PDF, or install RewirePDF for later.</h2>
+        <h2 id="final-title">Open a PDF and get the small job done.</h2>
         <a class="button primary" href="https://app.rewirepdf.com">Go to the app</a>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>RewirePDF</span>
-      <span>Open source PDF editing in the browser.</span>
+      <span>Your open source PDF editor.</span>
       <span><a href="legal.html">Legal</a> | <span id="year"></span></span>
     </footer>
 

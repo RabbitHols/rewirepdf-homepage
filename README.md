@@ -33,8 +33,9 @@ Output directory: /
 ```
 
 The project is intentionally dependency-free: HTML, CSS, one small JS file, and
-local assets only. The page now mentions the RewirePDF app's installable PWA
-mode, offline app shell, local file picker workflow, and no automatic PDF
-document storage.
+local assets only. The page positions RewirePDF as a UX-friendly open source
+PDF editor for everyday operations, real-world PDF support, certificates,
+permissions, web/mobile use, installable PWA behavior, and native app work in
+progress.
 
 The page language is English.
